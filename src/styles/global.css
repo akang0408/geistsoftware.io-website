@@ -1,0 +1,19 @@
+h1, h2, ol, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body{
+  /* background-color: #4DAF7C; */
+  /* background: rgb(34,193,195); */
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin: 0;
+  padding: 0;
+}
+
+

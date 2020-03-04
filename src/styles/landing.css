@@ -1,0 +1,32 @@
+#landing{
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(278deg, #4ca1af  0%, #c4e0e5 100%) fixed;
+  /* background: linear-gradient(278deg, #42275a  0%, #734b6d 100%) fixed; */
+  /* background: linear-gradient(278deg, #f465d2 0%, rgba(253,187,45,1) 100%) fixed; */
+  font-size: 50px;
+  text-align: center;
+}
+
+#ingridLanding {
+  padding-top: 200px;
+}
+
+#landing a:link{
+  color: white;
+  text-decoration: none;
+}
+
+#landing a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+#landing a:hover{
+  color: #185a9d;
+  /* text-shadow: 1px 1px .5px #000000; */
+  text-decoration: none;
+}
+
+
+

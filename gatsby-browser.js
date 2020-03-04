@@ -1,0 +1,5 @@
+import "./src/styles/global.css"
+import "./src/styles/landing.css"
+import "./src/styles/team.css"
+import "./src/styles/menu.css"
+import "./src/styles/header.css"
