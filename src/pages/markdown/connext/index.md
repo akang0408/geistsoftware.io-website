@@ -3,21 +3,11 @@ path: "/connext"
 title: "connext"
 ---
 
-![Connext logo](https://i.ibb.co/kJpDpQG/connextlogo.png)
-
 A lightweight middleware and route handling solution for Next.js. Powered by [dirext](https://github.com/dirext-js/dirext) 🛸 
 <!-- [![Build Status](https://travis-ci.org/oslabs-beta/connext-js.svg?branch=master)](https://travis-ci.org/oslabs-beta/connext-js) -->
 
 # Install connext
 `$ npm install connext-js`
-
-Initialize a new instance of Connext. 
-```javascript
-const Connext = require('connext-js');
-const app = Connext();
-```
-
-# Usage
 
 Connext is a middleware solution for Next.js with Express-style syntax that supports both global and flexible route-specific middleware. For global middleware, you must create a `controllers` folder that must contain a `global.js` controller file. We recommend also creating controller files for your other middleware as a way to modularize your API logic. 
 
@@ -57,10 +47,10 @@ Example file structure:
 ```
 ├── ...
 ├── controllers
-│   ├── global.js         # required for global middleware
-│   └── middleware.js     # suggested for modularization of middleware functions                                 
-├── pages                 # required folder for routes in Next.js 
-│   └── api               # required folder for API routes in Next.js 
+│   ├── global.js        
+│   └── middleware.js                 
+├── pages                
+│   └── api              
 └── ...                   
 ```
 
@@ -119,9 +109,9 @@ For example: `GET, DELETE, POST`, etc.
 To define a route using Connext, add a JavaScript file inside of Next.js's required `api` folder. 
 
 ```
-├── pages                       # required folder for routes in Next.js 
-│   └── api                     # required folder for API routes in Next.js 
-│       └── exampleRoute.js     # created route file inside of API folder     
+├── pages                       
+│   └── api                     
+│       └── exampleRoute.js    
 ```
 
 **Inside of the route file**

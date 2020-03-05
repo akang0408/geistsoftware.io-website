@@ -1,0 +1,23 @@
+.backButton {
+  border: solid black 1px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backButton a:link{
+  text-decoration: none;
+}
+
+.backButton a:visited{
+  text-decoration: none;
+}
+
+.backButtona:hover{
+  color: #185a9d;
+  /* text-shadow: 1px 1px .5px #000000; */
+  text-decoration: none;
+}

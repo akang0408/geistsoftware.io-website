@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import Header from '../components/header';
 import Menu from '../components/menu';
 import Bio from '../components/bio';
+import BackButton from '../components/backButton';
 
 const TeamPage = ({ data }) => {
   const bioArr = data.allMarkdownRemark.edges.map((bio) => {
@@ -17,11 +18,19 @@ const TeamPage = ({ data }) => {
     );
   });
 
-  return (<div>
-    <Header />
-    <Menu />
-    {bioArr}
-  </div>
+  return (
+    <div>
+      <div className="ingridPage">
+        <img src="https://i.ibb.co/XjjVB8z/Ingrid-Big-BG.png" />
+        {/* <img src="https://karandeepahluwalia.github.io/face.jpg" /> */}
+      </div>
+      <div className="packageWrapper">
+        <div className="packageClass">
+          <BackButton />
+          {bioArr}
+        </div>
+      </div>
+    </div>
   );
 };
 
