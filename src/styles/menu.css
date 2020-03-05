@@ -14,7 +14,9 @@
 #menuList{
   display: flex;
   justify-content: center;
-
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%) */
   /* padding-left: 50px; */
 }
 
@@ -35,9 +37,12 @@
   margin-top: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
 }
 
-.menuItem a:link{
+/* .menuItem a:link{
   color: white;
   text-decoration: none;
 }
@@ -45,11 +50,21 @@
 .menuItem a:visited{
   color: white;
   text-decoration: none;
+} */
+.menuItem::before{
+  background: white;
+  content:'';
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+  width: 0;
+  height: 100%
 }
 
-.menuItem a:hover{
-  color: #185a9d;
-  /* text-shadow: 1px 1px .5px #000000; */
+.menuItem:hover{
+  color: black;
+  background-color: rgba(255, 255, 255, .8) ;
+  /* text-shadow: .5px .5px .5px #000000; */
   text-decoration: none;
 }
 
