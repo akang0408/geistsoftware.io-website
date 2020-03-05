@@ -1,29 +1,50 @@
 import React from 'react';
+import { graphql } from 'gatsby';
 import Header from '../components/header';
 import Menu from '../components/menu';
+import Bio from '../components/bio';
 
-export default () => (
-  <div>
+const TeamPage = ({ data }) => {
+  const bioArr = data.allMarkdownRemark.edges.map((bio) => {
+    const { name, image, text } = bio.node.frontmatter;
+    const { html } = bio.node;
+    return (
+      <Bio
+        name={name}
+        image={image}
+        text={text}
+      />
+    );
+  });
+
+  return (<div>
     <Header />
     <Menu />
-    <div id="teamPage">
-      <div className="teamMember">
-        <h3>Alex Kang</h3>
-        <p>Alex Kang is a young trailblazer who grew up on his Grandmother's clementine farm in Italy. His second favorite food is bread and he always wears a snorkel to wash his hands.</p>
-        <p>"I like bread" - AleX</p>
-      </div>
-      <div className="teamMember">
-        <h3>Alex Kang</h3>
-        <p>Alex Kang is a young trailblazer who grew up on his Grandmother's clementine farm in Italy. His second favorite food is bread and he always wears a snorkel to wash his hands.</p>
-        <p>"I like bread" - AleX</p>
-      </div>
-      <div className="teamMember">
-        <h3>Alex Kang</h3>
-        <p>Alex Kang is a young trailblazer who grew up on his Grandmother's clementine farm in Italy. His second favorite food is bread and he always wears a snorkel to wash his hands.</p>
-        <p>"I like bread" - AleX</p>
-      </div>
-      
-      {/* <p>Connext-js</p> */}
-    </div>
+    {bioArr}
   </div>
-);
+  );
+};
+
+export const pageQuery = graphql`
+query BioQuery {
+  allMarkdownRemark(filter: {
+    frontmatter: {
+      title: {eq: "bio"}
+    }
+  }) {
+    edges {
+      node {
+        frontmatter {
+          path
+          image
+          name
+          text
+        }
+        html
+      }
+    }
+  }
+}
+`;
+
+export default TeamPage;

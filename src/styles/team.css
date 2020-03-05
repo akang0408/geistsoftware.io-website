@@ -18,3 +18,8 @@
   margin: auto;
   width: 50%;
 }
+
+img {
+  min-width: 50%;
+  max-width: 50%;
+}

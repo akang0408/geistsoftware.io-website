@@ -5,15 +5,15 @@
   height: 60px;
   vertical-align: middle;
   /* background: linear-gradient(278deg, #42275a  0%, #734b6d 100%) fixed; */
-  background: linear-gradient(278deg, #c4e0e5    0%, #4ca1af 100%) fixed;
+  /* background: linear-gradient(278deg, #c4e0e5    0%, #4ca1af 100%) fixed; */
   /* background: linear-gradient(278deg, #ffdcdb 0%, #b4c8ea 100%) fixed; */
   /* border-top: 1px solid white; */
-  border-bottom: 1px solid #3b3b3b;
+  /* border-bottom: 1px solid #3b3b3b; */
 }
 
 #menuList{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   padding-left: 50px;
 }
 
