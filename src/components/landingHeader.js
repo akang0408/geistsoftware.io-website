@@ -10,19 +10,19 @@ export default () => (
 
       <li class="landingListItem">
         <a href="https://github.com/akang0408/connextTestApp">
-          <img src="https://i.ibb.co/zS1T4p4/unnamed.png"></img>
+          <img src="https://i.ibb.co/g6zrXGX/linkedin-white.png"></img>
         </a>
       </li>
 
       <li class="landingListItem">
         <a href="https://github.com/akang0408/connextTestApp">
-          <img src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png"></img>
+          <img src="https://i.ibb.co/93msWYq/github-white.png"></img>
         </a>
       </li>
 
       <li class="landingListItem">
         <a href="https://github.com/akang0408/connextTestApp">
-          <img src="https://webstockreview.net/images/twitter-icon-png-1.png"></img>
+          <img src="https://i.ibb.co/NptWTCb/twitter-white.png"></img>
         </a>
       </li>
 
