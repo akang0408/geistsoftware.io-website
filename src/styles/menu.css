@@ -30,6 +30,7 @@
 }
 
 .menuItem{
+  font-weight: 300;
   font-size: 13px;
   letter-spacing: 3px;
   color: white;
@@ -63,7 +64,7 @@
 
 .menuItem:hover{
   color: rgb(45, 131, 131);
-  font-weight: 400;
+  /* font-weight: 400; */
   /* font-size: 17px; */
   background-color: rgba(255, 255, 255, .8) ;
   /* text-shadow: .5px .5px .5px #000000; */
