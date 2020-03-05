@@ -13,19 +13,21 @@ export default () => (
     <div id="landingSS">
       SOFTWARE SOLUTIONS
     </div>
+    <hr></hr>
+    <div id="landingBreak"></div>
     <div id="menu">
       <ul id="menuList">
         <li className="menuItem">
-          <Link to="/about">About</Link>
+          <Link to="/about">ABOUT</Link>
         </li>
         <li className="menuItem">
-          <Link to="/connext">Connext-js</Link>
+          <Link to="/connext">CONNEXT-JS</Link>
         </li>
         <li className="menuItem">
-          <Link to="/dirext">Dirext-js</Link>
+          <Link to="/dirext">DIREXT-JS</Link>
         </li>
         <li className="menuItem">
-          <Link to="/team">Team</Link>
+          <Link to="/team">TEAM</Link>
         </li>
       </ul>
     </div>
