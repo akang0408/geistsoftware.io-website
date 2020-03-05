@@ -10,8 +10,6 @@ export default ({ data }) => {
   console.log(html);
   return (
     <div>
-      <Header />
-      <Menu />
       <div 
         dangerouslySetInnerHTML={{ __html: html }}
       />

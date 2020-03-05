@@ -14,7 +14,16 @@
 #menuList{
   display: flex;
   justify-content: center;
-  padding-left: 50px;
+  /* padding-left: 50px; */
+}
+
+#menu li{
+  border: solid white 1px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 2px;
+  margin-right: 2px;
+  border-radius: 6px;
 }
 
 .menuItem{

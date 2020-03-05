@@ -1,16 +1,34 @@
 #landing{
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(278deg, #4ca1af  0%, #c4e0e5 100%) fixed;
-  /* background: linear-gradient(278deg, #42275a  0%, #734b6d 100%) fixed; */
+  /* background: linear-gradient(278deg, #4ca1af  0%, #c4e0e5 100%) fixed; */
+  background: linear-gradient(278deg, #2c6975   0%, #68b2a0 100%) fixed;
   /* background: linear-gradient(278deg, #f465d2 0%, rgba(253,187,45,1) 100%) fixed; */
   font-size: 50px;
   text-align: center;
 }
 
 #ingridLanding {
-  padding-top: 200px;
+  padding-top: 150px;
+  max-width: 50%;
+  /* padding-left: 2%; */
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 650px;
+}
 
+#landingGeist{
+  color: white;
+  letter-spacing: 8px;
+  padding-top: 3vh;
+  padding-bottom: 10px;
+}
+
+#landingSS{
+  color: white;
+  letter-spacing: 6px;
+  font-size: 14px;
+  padding-bottom: 60px;
 }
 
 #landing a:link{

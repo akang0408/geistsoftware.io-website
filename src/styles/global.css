@@ -8,6 +8,7 @@ h1, h2, ol, ul, li {
 }
 
 body{
+  background: linear-gradient(278deg, #2c6975   0%, #68b2a0 100%) fixed;
   /* background-color: #4DAF7C; */
   /* background: rgb(34,193,195); */
   font-family: sans-serif;
