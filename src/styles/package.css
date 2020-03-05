@@ -1,0 +1,37 @@
+.packageClass {
+  background-color:rgb(255, 255, 255, 0.75) ;
+  width: 70vw;
+  margin: 0 auto;
+  max-width: 800px;
+  min-width: 400px;
+  border-radius: 4px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  color: #3b3b3b;
+}
+
+.packageClass h1, h2, h3, h4 {
+  color:#34737B;
+}
+
+.packageClass code {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+#packageWrapper {
+  padding: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.ingridPage {
+
+  max-width: 250px;
+  /* margin: 0 auto; */
+  margin-left: auto;
+  margin-right: auto;
+}

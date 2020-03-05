@@ -1,6 +1,7 @@
 import React from "react"
 import Header from '../components/header';
 import Menu from '../components/menu';
+import BackButton from '../components/backButton';
 
 export default ({ data }) => {
   const { node } = data.allMarkdownRemark.edges[0];
@@ -9,9 +10,18 @@ export default ({ data }) => {
   console.log(html);
   return (
     <div>
-      <div 
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
+      <div className="ingridPage">
+        <img src="https://i.ibb.co/XjjVB8z/Ingrid-Big-BG.png" />
+        {/* <img src="https://karandeepahluwalia.github.io/face.jpg" /> */}
+      </div>
+      <div className="packageWrapper">
+        <div className="packageClass">
+          <BackButton />
+          <div
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
+        </div>
+      </div>
     </div>
   );
 };
