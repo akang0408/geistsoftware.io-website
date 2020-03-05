@@ -4,6 +4,7 @@
   float: right;
   margin-right: -22px;
   /* background-color: grey; */
+  
 }
 
 .buttonDiv a:hover {
@@ -13,20 +14,34 @@
 }
 
 .backButton {
-  border: solid black 1px;
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
+  border: solid 1px;
+  font-weight: 400;
+  font-size: 16px;
+  width: 24px;
+  height: 24px;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(52, 115, 123, .7);
+  background-color: rgb(45, 131, 131, .8);
   color: white;
+}
+
+.backButton::before{
+  background: white;
+  content:'';
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+  width: 0;
+  height: 100%
 }
 
 .backButton:hover{
   /* color: #185a9d; */
-  background-color: rgb(24, 90, 157, .7);
+  background-color: rgb(255, 255, 255, 0.5);
+  color: rgb(45, 131, 131);
+  border: solid 2px;
 }
 
 .backButton a:link{
