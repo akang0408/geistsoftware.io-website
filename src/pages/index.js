@@ -1,8 +1,11 @@
+/*eslint-disable*/
 import React from 'react';
 import { Link } from 'gatsby';
+import LandingHeader from '../components/landingHeader'
 
 export default () => (
   <div id="landing">
+    <LandingHeader />
     <div id="ingridLanding">
       <img src="https://i.ibb.co/XjjVB8z/Ingrid-Big-BG.png" />
       {/* <img src="https://karandeepahluwalia.github.io/face.jpg" /> */}

@@ -42,10 +42,6 @@
   text-decoration: none;
 }
 
-#aboutImage{
-  min-width: 2000px;
-}
-
 #packageWrapper {
   padding: 20px;
   display: flex;
@@ -53,9 +49,19 @@
   justify-content: center;
 }
 
-.ingridPage {
+.headingText {
+  color: white;
+  text-align: center;
+  letter-spacing: 7px;
+  padding-right: 15px;
+}
 
-  max-width: 250px;
+.ingridPage {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  max-width: 320px;
   /* margin: 0 auto; */
   margin-left: auto;
   margin-right: auto;

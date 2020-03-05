@@ -18,6 +18,7 @@ export default ({ data }) => {
         <img src="https://i.ibb.co/XjjVB8z/Ingrid-Big-BG.png" />
         {/* <img src="https://karandeepahluwalia.github.io/face.jpg" /> */}
       </div>
+      <p className="headingText">GEIST</p>
       <div className="packageWrapper">
         <div className="packageClass">
           <BackButton />

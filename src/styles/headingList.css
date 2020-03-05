@@ -1,0 +1,20 @@
+#landingHeader ul{
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  /* float: right; */
+}
+
+.landingListItem{
+  width: 150px;
+  height: 150px;
+  list-style: none;
+  /* padding-left: -50px; */
+  margin-right: -50px;
+  margin-bottom: -100px;
+}
+/* 
+.landingListItem img{
+  width: 100% !important;
+  height: 100% !important;
+} */
