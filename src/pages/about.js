@@ -18,9 +18,13 @@ export default ({ data }) => {
         <img src="https://i.ibb.co/XjjVB8z/Ingrid-Big-BG.png" />
         {/* <img src="https://karandeepahluwalia.github.io/face.jpg" /> */}
       </div>
+      <p className="headingText">GEIST</p>
       <div className="packageWrapper">
         <div className="packageClass">
           <BackButton />
+          {/* <div id="aboutBanner">
+            <img src="https://images.unsplash.com/photo-1564473265889-3e87bd16d51e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80"></img>
+          </div> */}
           {/* <div id="aboutImage">
             <img src="https://images.unsplash.com/photo-1506260408121-e353d10b87c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80" />
           </div> */}

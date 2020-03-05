@@ -1,3 +1,5 @@
+/*eslint-disable*/
+
 import React from 'react';
 import { graphql } from 'gatsby';
 import Header from '../components/header';
@@ -17,9 +19,13 @@ export default ({ data }) => {
         <img src="https://i.ibb.co/XjjVB8z/Ingrid-Big-BG.png" />
         {/* <img src="https://karandeepahluwalia.github.io/face.jpg" /> */}
       </div>
+      <p className="headingText">GEIST</p>
       <div className="packageWrapper">
         <div className="packageClass">
           <BackButton />
+          <div className="packageLogos">
+            <img src="https://i.ibb.co/pWcLWhB/Screen-Shot-2020-02-20-at-2-24-56-PM.png"></img>
+          </div>
           <div
             dangerouslySetInnerHTML={{ __html: html }}
           />

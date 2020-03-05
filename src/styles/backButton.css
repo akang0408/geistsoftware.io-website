@@ -1,8 +1,15 @@
+#landingHeader {
+  padding-right: 20px;
+}
+
+
 .buttonDiv {
   width: 30px;
   display: flex;
   float: right;
-  margin-right: -22px;
+  /* padding-right: 15px; */
+  margin-top: 5px;
+  margin-right: -20px;
   /* background-color: grey; */
   
 }

@@ -14,6 +14,7 @@
   letter-spacing: .5px;
   padding-bottom: 10px;
   margin-bottom: 40px;
+  font-weight: 300;
 }
 
 .packageClass h1, h2, h3, h4 {
@@ -42,10 +43,6 @@
   text-decoration: none;
 }
 
-#aboutImage{
-  min-width: 2000px;
-}
-
 #packageWrapper {
   padding: 20px;
   display: flex;
@@ -53,10 +50,37 @@
   justify-content: center;
 }
 
-.ingridPage {
+.headingText {
+  color: white;
+  text-align: center;
+  letter-spacing: 7px;
+  padding-right: 15px;
+}
 
-  max-width: 250px;
+.ingridPage {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  max-width: 320px;
   /* margin: 0 auto; */
   margin-left: auto;
   margin-right: auto;
+}
+
+.packageLogos {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  border-bottom: solid #34737B 1px;
+}
+
+.packageLogos img{
+  min-width: 200px;
+}
+
+#aboutBanner {
+  width: 100vw;
 }
