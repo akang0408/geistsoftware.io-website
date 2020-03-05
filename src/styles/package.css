@@ -13,6 +13,7 @@
   font-size: 14px;
   letter-spacing: .5px;
   padding-bottom: 10px;
+  margin-bottom: 40px;
 }
 
 .packageClass h1, h2, h3, h4 {
@@ -22,6 +23,23 @@
 .packageClass code {
   overflow-x: scroll;
   overflow-y: hidden;
+}
+
+.packageClass a:link{
+  color: #34737B;
+  text-decoration: none;
+}
+
+.packageClass a:visited{
+  color: #34737B;
+  text-decoration: none;
+}
+
+.packageClass a:hover{
+  color: #185a9d;
+  border-bottom: white solid 1px;
+  /* text-shadow: 1px 1px .5px #000000; */
+  text-decoration: none;
 }
 
 #aboutImage{

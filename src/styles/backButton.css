@@ -1,3 +1,17 @@
+.buttonDiv {
+  width: 30px;
+  display: flex;
+  float: right;
+  margin-right: -22px;
+  /* background-color: grey; */
+}
+
+.buttonDiv a:hover {
+  /* text-shadow: 1px 1px .5px #000000; */
+  border-bottom: none !important;
+  /* color: white !important; */
+}
+
 .backButton {
   border: solid black 1px;
   width: 30px;
@@ -6,18 +20,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(52, 115, 123, .7);
+  color: white;
+}
+
+.backButton:hover{
+  /* color: #185a9d; */
+  background-color: rgb(24, 90, 157, .7);
 }
 
 .backButton a:link{
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .backButton a:visited{
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
-.backButtona:hover{
-  color: #185a9d;
+.backButton a:hover{
+  /* color: white !important; */
+  /* background-color: rgb(52, 115, 123, .7); */
+  background-color: white !important;
   /* text-shadow: 1px 1px .5px #000000; */
-  text-decoration: none;
+  text-decoration: none !important;
 }

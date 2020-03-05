@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 
 export default () => (
-  <div>
+  <div className="buttonDiv">
       <Link to="/"><div class="backButton">x</div></Link> 
   </div>
 );
