@@ -62,7 +62,9 @@
 }
 
 .menuItem:hover{
-  color: black;
+  color: rgb(45, 131, 131);
+  font-weight: 400;
+  /* font-size: 17px; */
   background-color: rgba(255, 255, 255, .8) ;
   /* text-shadow: .5px .5px .5px #000000; */
   text-decoration: none;
