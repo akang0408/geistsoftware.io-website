@@ -55,6 +55,36 @@
   text-align: center;
   letter-spacing: 7px;
   padding-right: 15px;
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+
+.subText {
+  color: white;
+  text-align: center;
+  padding-right: 15px;
+  font-size: 10px;
+  letter-spacing: 3px;
+  margin-top: 3px;
+}
+
+#headingText {
+  color: white;
+  text-align: center;
+  letter-spacing: 7px;
+  padding-right: 15px;
+  margin-top: 0px;
+  margin-bottom: 3px;
+  font-weight: 100;
+}
+#subText {
+  color: white;
+  text-align: center;
+  padding-right: 15px;
+  font-size: 10px;
+  letter-spacing: 3px;
+  margin-top: 3px;
+  font-weight: 100;
 }
 
 .ingridPage {
@@ -83,4 +113,8 @@
 
 #aboutBanner {
   width: 100vw;
+}
+
+.npm {
+  font-weight: 700;
 }

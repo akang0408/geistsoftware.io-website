@@ -9,20 +9,21 @@ export default ({ data }) => {
 
   console.log(html);
   return (
-    <div>
+    <div className='npm'>
       <div className="ingridPage">
         <img src="https://i.ibb.co/XjjVB8z/Ingrid-Big-BG.png" />
         {/* <img src="https://karandeepahluwalia.github.io/face.jpg" /> */}
       </div>
 
-      <p className="headingText">GEIST</p>
+      <p id="headingText">GEIST</p>
+      <p id="subText">Software Solutions</p>
       <div className="packageWrapper">
         <div className="packageClass">
           <BackButton />
           <div className="packageLogos">
-            <img src="https://i.ibb.co/7nPrbyX/dirext.png"></img>
+            <img className="dirextLogo" src="https://i.ibb.co/Sdx0wSn/Screen-Shot-2020-03-24-at-12-30-09-PM.png"></img>
           </div>
-          <div
+          <div id='content'
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </div>

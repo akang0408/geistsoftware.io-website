@@ -18,7 +18,8 @@ export default ({ data }) => {
         <img src="https://i.ibb.co/XjjVB8z/Ingrid-Big-BG.png" />
         {/* <img src="https://karandeepahluwalia.github.io/face.jpg" /> */}
       </div>
-      <p className="headingText">GEIST</p>
+      <p class="headingText">GEIST</p>
+      <p class="subText">Software Solutions</p>
       <div className="packageWrapper">
         <div className="packageClass">
           <BackButton />
@@ -28,7 +29,7 @@ export default ({ data }) => {
           {/* <div id="aboutImage">
             <img src="https://images.unsplash.com/photo-1506260408121-e353d10b87c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80" />
           </div> */}
-          <div
+          <div id='about'
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </div>
