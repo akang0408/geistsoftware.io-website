@@ -19,12 +19,13 @@ const TeamPage = ({ data }) => {
   });
 
   return (
-    <div>
+    <div className='npm'>
       <div className="ingridPage">
         <img src="https://i.ibb.co/XjjVB8z/Ingrid-Big-BG.png" />
         {/* <img src="https://karandeepahluwalia.github.io/face.jpg" /> */}
       </div>
-      <p className="headingText">GEIST</p>
+      <p id="headingText">GEIST</p>
+      <p id="subText">Software Solutions</p>
       <div className="packageWrapper">
         <div className="packageClass">
           <BackButton />

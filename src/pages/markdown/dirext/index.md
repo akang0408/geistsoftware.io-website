@@ -86,10 +86,12 @@ app.find('GET', '/home');
 // -> { middleware: [globalMiddleware, homeMiddleware, getHomeMiddleware] }
 
 app.find('POST', '/home/user1');
-// -> { middleware: [globalMiddleware, postUserMiddleware], params: { user: user1 } }
+// -> { middleware: [globalMiddleware, postUserMiddleware], 
+        params: { user: user1 } }
 
 app.find('DELETE', '/home/posts/2/?user=user1');
-// -> { middleware: [globalMiddleware, deleteMiddleware], params: { id: 2 }, queries: { user: user1 } }
+// -> { middleware: [globalMiddleware, deleteMiddleware], params: { id: 2 }, 
+        queries: { user: user1 } }
 ```
 
 ### Creators 

@@ -16,3 +16,11 @@ body{
   margin: 0;
   padding: 0;
 }
+
+#about {
+  margin-top: 13px;
+}
+
+#content {
+  margin: 20px 15px;
+}
