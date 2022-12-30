@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "connext-js": "^1.1.2",
-    "gatsby": "^2.19.7",
+    "gatsby": "^2.32.13",
     "gatsby-source-filesystem": "^2.1.48",
     "gatsby-transformer-remark": "^2.6.53",
     "react": "^16.12.0",
